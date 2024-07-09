@@ -1,9 +1,15 @@
 {
   "name": "tail-button",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "testing tail button",
-  "main": "main/index.js",
+  "main": "./dist/TailButton.js",
+  "type":"module",
+  "exports": {
+    ".": {
+      "default": "./dist/TailButton.js"
+    }
+  },
   "keywords": [
     "react",
     "component",
@@ -11,7 +17,6 @@
   ],
   "author": "Vinod Mestha",
   "license": "MIT",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "babel src --out-dir dist",
