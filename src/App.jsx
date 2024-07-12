@@ -1,12 +1,3 @@
-import { useState } from 'react'
-import './App.css'
+import TailButton from './TailButton';
 
-function App() {
-  return (
-    <div>
-      null
-    </div>
-  )
-}
-
-export default App
+export default TailButton;
