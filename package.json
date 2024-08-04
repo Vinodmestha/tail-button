@@ -1,7 +1,7 @@
 {
   "name": "tail-button",
   "private": false,
-  "version": "1.0.11",
+  "version": "1.0.19",
   "description": "testing tail button",
   "type":"module",
   "keywords": [
@@ -11,24 +11,22 @@
   ],
   "author": "Vinod Mestha",
   "license": "MIT",
-  "main": "dist/index.jsx",
-  "module": "dist/index.jsx",
-  "types":"dist/index.d.ts",
+  "main": "./dist/tail.umd.cjs",
+  "module": "./dist/tail.js",
   "exports": {
     ".": {
-      "import": "./dist/index.jsx",
-      "require": "./dist/index.jsx"
+      "import": "./dist/tail.js",
+      "require": "./dist/tail.umd.cjs"
     }
   },
   "scripts": {
     "build": "vite build",
     "prepare": "npm run build",
-    "dev": "vite",
-    "prepublish": "rm -rf ./dist && npm run build"
+    "dev": "vite"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vinodmestha/tail-button.git" 
+    "url": "https://github.com/Vinodmestha/tail-button.git" 
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
