@@ -11,12 +11,12 @@
   ],
   "author": "Vinod Mestha",
   "license": "MIT",
-  "main": "./dist/tail.umd.cjs",
-  "module": "./dist/tail.js",
+  "main": "./dist/tail-button.umd.cjs",
+  "module": "./dist/tail-button.js",
   "exports": {
     ".": {
-      "import": "./dist/tail.js",
-      "require": "./dist/tail.umd.cjs"
+      "import": "./dist/tail-button.js",
+      "require": "./dist/tail-button.umd.cjs"
     }
   },
   "scripts": {
