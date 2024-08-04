@@ -9,6 +9,11 @@
     "component",
     "npm"
   ],
+  "files": [
+        "dist",
+        "README.md",
+        "package.json"
+  ],
   "author": "Vinod Mestha",
   "license": "MIT",
   "main": "./dist/tail-button.umd.cjs",
