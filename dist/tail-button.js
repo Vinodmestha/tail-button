@@ -1,5 +1,5 @@
 import we from "react";
-var Z = { exports: {} }, F = {};
+import './index.css';var Z = { exports: {} }, F = {};
 /**
  * @license React
  * react-jsx-runtime.production.min.js
